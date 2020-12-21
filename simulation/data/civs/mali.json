@@ -1,0 +1,173 @@
+{
+	"Code": "mali",
+	"Culture": "mali",
+	"Name": "Malians",
+	"Emblem": "session/portraits/emblems/emblem_malians.png",
+	"History": "The Mali Empire became the largest and wealthiest empire in West Africa during the Middle Ages. It was established by the Mandinka people after the collapse of the Ghana Empire. The Malian army was primarily focused on archers and cavalry. Mali was not only known for its wealth and military power, but also for its culture. Scholars studied law, medicine, religion, literature and philosophy in the madrasahs of the University of Timbuktu. The architecture of the Empire was characterised by the use of mudbricks and adobe, in a style known today as Sudano-Sahelian. After many wars with neighboring peoples, including several revolts and invasions, the Empire began to decline. It disappeared during the 17th century, and its former territory was divided between the Empires of Songhai, Jolof, Kaabu and Great Fulo.",
+	"Music":
+	[
+		{ "File": "Ammon-Ra.ogg", "Type": "peace" },
+		{ "File": "Sands_of_Time.ogg", "Type": "peace" },
+		{ "File": "Land_between_the_two_Seas.ogg", "Type": "peace" },
+		{ "File": "Valley_of_the_Nile.ogg", "Type": "peace" }
+	],
+	"Factions":
+	[
+		{
+			"Name": "Malians",
+			"Description": "The wealthy African Empire situated in West Africa during the Middle Ages.",
+			"Technologies":
+			[
+				{
+					"Name": "Monumental Architecture",
+					"Description": "+50% HP and -50% build time for Civic Centers, Temples, Pyramids and Wonders."
+				},
+				{
+					"Name": "High Priest of Amun",
+					"History": "Have your priests instructed by the High Priest himself - may Amun bless him.",
+					"Description": "Allow to train elite rank healers"
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Sundiata Keita",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "emblem.png",
+					"History": ""
+				},
+				{
+					"Name": "Mansa Musa",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "emblem.png",
+					"History": ""
+				},
+				{
+					"Name": "Sakoura Mansa",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "emblem.png",
+					"History": ""
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "The Pyramids of Meroe",
+			"Description": "Building a Kushite pyramid increases Civic Center territory influence by +10% for each one built."
+		},
+		{
+			"Name": "Mineral Deposits",
+			"Description": "Kushite players receive a free extra Metal Mine somewhere in their home territory."
+		},
+		{
+			"Name": "Elephant Roundup",
+			"Description": "Can capture Gaia elephants and garrison them into a corral to reduce training costs for War Elephants."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Elephant Suppliers",
+			"Description": "Allied Elephants −20% resource costs and training time."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Temple of Amun",
+			"Class": "",
+			"Emblem": "emblem.png",
+			"History": "History.",
+			"Requirements": ".",
+			"Phase": "City",
+			"Special": "The Kushites can upgrade individual Temples to Temples of Amun, which can train Napatan Temple Guard champions and heal units faster."
+		},
+		{
+			"Name": "Temple of Apedemak",
+			"Class": "",
+			"Emblem": "emblem.png",
+			"History": "History.",
+			"Requirements": ".",
+			"Phase": "City",
+			"Special": "The Kushites can upgrade individual Temples to Temples of Apedemak, which can train Meroe Temple Guard champions and heal units faster."
+		},
+		{
+			"Name": "Kushite Pyramids",
+			"Class": "",
+			"Emblem": "emblem.png",
+			"History": "The Kushites built over 200 pyramids in Nubia.",
+			"Requirements": ".",
+			"Phase": "Village",
+			"Special": "Building a Small Kushite Pyramid unlocks the Town Phase. Building a Large Kushite Pyramid unlocks the City Phase. And each pyramid built adds +10% territory effect to Civic Centers."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/mali_civil_centre"
+		},
+		{
+			"Template": "units/mali_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/mali_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/mali_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/mali_cavalry_archer_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/kush_wallset_stone"
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/syntagma"
+	],
+	"AINames":
+	[
+		"Kashta",
+		"Alara",
+		"Pebatjma",
+		"Shabaka",
+		"Shebitku",
+		"Qalhata",
+		"Takahatenamun",
+		"Tantamani",
+		"Atlanersa",
+		"Nasalsa",
+		"Malewiebamani",
+		"Harsiotef",
+		"Shanakdakhete",
+		"Amanishakheto"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/mali_infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/mali_cavalry_archer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
