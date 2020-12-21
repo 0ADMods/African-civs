@@ -1,1 +1,0 @@
-Just an empty file, so that I can create the ambient occlusion directory. The file will be deleted afterwards.
