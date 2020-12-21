@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/mali_library
+      structures/mali_tuareg_camp
+      structures/mali_dogon_village
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>mali</Civ>
+    <SelectionGroupName>units/mali_infantry_archer_b</SelectionGroupName>
+    <GenericName>Mandinka Archer</GenericName>
+    <SpecificName>Kun-tigui</SpecificName>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Icon>units/mali_infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/mali_infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/malians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>
