@@ -28,6 +28,8 @@ Feel free to contact us if you want to contribute or encounter errors etc.
 * Balduin(research, review)
 * Stanislav Dolcini (review, technical help)
 * m7600(forums, opengameart)(creator of buidings, maps, units)
+* Sundiata(research, review)
+* UltimateAurelian(research, review)
 
 And all members from 0 A.D. Council of Modders
 
