@@ -1,7 +1,7 @@
 # African-civs A.D.
 Adding four Medieval African factions: Ethiopians, Malians, Moroccans and Zimbabweans. 
 
-*African-civs A.D.* is a mod for [*0 A.D. Empires Ascendant*](https://play0ad.com/), covering the AD 500–1000 timeframe, or broadly from the traditional fall of the Western Roman Empire (476) to the Ethiopians. It currently introduces the following civilizations:
+*African-civs A.D.* is a mod for [*0 A.D. Empires Ascendant*](https://play0ad.com/), covering the AD 1000–1500 timeframe, or broadly from the traditional fall of the Western Roman Empire (476) to the Ethiopians. It currently introduces the following civilizations:
 * Ethiopians
 * Malians
 * Moroccans
