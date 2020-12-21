@@ -1,0 +1,9 @@
+{
+	"name": "african-civs",
+	"label": "Medieval African Civilisations A.D.",
+	"version": "0.1.0",
+	"url": "https://github.com/0ADMods/African-civs",
+	"description": "Cover the AD 500–1000 timeframe with new civilizations and maps with the exception of Ethiopians.",
+	"dependencies": ["0ad=0.0.24"],
+	"type": "mod"
+}
