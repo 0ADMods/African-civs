@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>mali</Civ>
+    <SpecificName>Musoo</SpecificName>
+    <GenericName>Malian Woman</GenericName>
+    <Icon>units/mali/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/mali/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/malians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>
