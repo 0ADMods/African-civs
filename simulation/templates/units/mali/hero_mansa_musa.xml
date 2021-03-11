@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_spearman">
-  <Auras datatype="tokens">
-    units/heroes/mali/hero_mansa_musa
-
-  </Auras>
   <Identity>
     <Civ>mali</Civ>
     <GenericName>Mansa Musa</GenericName>
