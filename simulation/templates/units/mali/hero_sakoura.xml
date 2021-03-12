@@ -5,9 +5,8 @@
     <GenericName>Sakoura</GenericName>
     <SpecificName>Mansa Sakoura</SpecificName>
     <Icon>units/mali/hero_sakoura.png</Icon>
-
   </Identity>
   <VisualActor>
-    <Actor>units/mauryans/hero_infantry_archer_ashoka.xml</Actor>
+    <Actor>units/mauryas/hero_infantry_archer_ashoka.xml</Actor>
   </VisualActor>
 </Entity>

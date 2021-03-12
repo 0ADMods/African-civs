@@ -2,8 +2,11 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Attack>
     <Ranged>
+      <AttackName>Bow</AttackName>
+      <Damage>
       <Pierce>5</Pierce>
       <Crush>15</Crush>
+      </Damage>
     </Ranged>
   </Attack>
   <Identity>
