@@ -30,6 +30,7 @@ Feel free to contact us if you want to contribute or encounter errors etc.
 * m7600(forums, opengameart)(creator of buidings, maps, units)
 * Sundiata(research, review)
 * UltimateAurelian(research, review)
+* Lopes(development, update for Alpha 24)
 
 And all members from 0 A.D. Council of Modders
 
