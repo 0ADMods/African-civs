@@ -109,28 +109,28 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/mali_civil_centre"
+			"Template": "structures/mali/civil_centre"
 		},
 		{
-			"Template": "units/mali_support_female_citizen",
+			"Template": "units/mali/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/mali_infantry_spearman_b",
+			"Template": "units/mali/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/mali_infantry_archer_b",
+			"Template": "units/mali/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/mali_cavalry_archer_b"
+			"Template": "units/mali/cavalry_archer_b"
 		}
 	],
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/kush_wallset_stone"
+		"structures/mali/wallset_stone"
 	],
 	"Formations":
 	[
@@ -165,9 +165,9 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/mali_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/mali_cavalry_archer_b",
-		"skirmish/structures/default_house_10": "structures/{civ}_house"
+		"skirmish/units/default_infantry_ranged_b": "units/mali/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/mali/cavalry_archer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }

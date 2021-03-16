@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Identity>
+    <Civ>mali</Civ>
+    <GenericName>Sakoura</GenericName>
+    <SpecificName>Mansa Sakoura</SpecificName>
+    <Icon>units/mali/hero_sakoura.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryas/hero_infantry_archer_ashoka.xml</Actor>
+  </VisualActor>
+</Entity>

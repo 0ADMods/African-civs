@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/mali/library
+      structures/mali/tuareg_camp
+      structures/mali/dogon_village
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food op="add">-25</food>
+      <metal op="add">25</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>mali</Civ>
+    <SelectionGroupName>units/mali/infantry_javelineer_merc_b</SelectionGroupName>
+    <GenericName>Dogon Hunter</GenericName>
+    <SpecificName>Dógólì dà:ná</SpecificName>
+    <Icon>units/mali/infantry_merc_javelinist.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>units/mali/infantry_javelineer_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/malians/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

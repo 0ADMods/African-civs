@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Identity>
+    <Civ>mali</Civ>
+    <GenericName>Mansa Musa</GenericName>
+    <SpecificName>Musa I</SpecificName>
+    <Icon>units/mali/hero_mansa_musa.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/hero_cavalry_spearman_nastasen_m.xml</Actor>
+  </VisualActor>
+</Entity>

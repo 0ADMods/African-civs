@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged>
+      <AttackName>Bow</AttackName>
+      <Damage>
+      <Pierce>5</Pierce>
+      <Crush>15</Crush>
+      </Damage>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>mali</Civ>
+    <GenericName>Mandinka Imperial Archer</GenericName>
+    <SpecificName>Ton-tigi</SpecificName>
+    <Icon>units/mali/champion_archer.png</Icon>
+    <Tooltip>Special: Flaming arrows. Good vs. Buildings.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>units/malians/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

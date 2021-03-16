@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Footprint>
+    <Square width="28.0" depth="10.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mali</Civ>
+    <SelectionGroupName>structures/mali/wallset_stone</SelectionGroupName>
+    <SpecificName>sbty</SpecificName>
+  </Identity>
+   <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Four>
+    </TurretPoints>
+  </TurretHolder>
+  <Obstruction>
+    <Static width="26.0" depth="8.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/malians/wall_medium.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>22.9</Length>
+  </WallPiece>
+</Entity>

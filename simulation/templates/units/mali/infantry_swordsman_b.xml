@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/mali/library
+      structures/mali/tuareg_camp
+      structures/mali/dogon_village
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>mali</Civ>
+    <SelectionGroupName>units/mali/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Mandinka Swordsman</GenericName>
+    <SpecificName>Kèlè-koun</SpecificName>
+    <Icon>units/mali/infantry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/mali/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/malians/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

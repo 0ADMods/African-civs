@@ -2,54 +2,36 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" file="quadraped/base_horse_archer.xml" name="Archer Horse">
-      <mesh>skeletal/horse.dae</mesh>
+    <variant frequency="1" file="quadraped/base_horse_archer.xml" name="Horse Archer">
+      <mesh>skeletal/horse_barb.dae</mesh>
       <props>
         <prop actor="units/malians/cavalry_archer_e_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_blanket_kush.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_straps_kush.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_rein_archer.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_straps_kush_adv.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="3" name="mali-cavalry-elite-black">
-      <textures>
-        <texture file="skeletal/horse_black_a.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="2" name="mali-cavalry-elite-brown">
-      <textures>
-        <texture file="skeletal/horse_brown_a.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="4" name="mali-cavalry-elite-chestnut">
-      <textures>
-        <texture file="skeletal/horse_tan_a.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="mali-cavalry-elite-white">
-      <textures>
-        <texture file="skeletal/horse_white_a.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="3" name="mali-cavalry-elite-dun">
-      <textures>
-        <texture file="skeletal/horse_dun_a.dds" name="baseTex"/>
-      </textures>
-    </variant>
+    <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
+    <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
+    <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
+    <variant file="quadraped/horse/tan.xml" frequency="1" name="tan"/>
+    <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
+    <variant file="quadraped/horse/pure_white.xml" frequency="1" name="pure_white"/>
+    <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>
+    <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="quadraped/base_horse_archer.xml" name="Archer-Horse" frequency="1"/>
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
-    <variant name="gather_meat">
+    <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="" attachpoint="rider"/>
         <prop actor="units/malians/cavalry_archer_e_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>no_trans_parallax_spec.xml</material>
 </actor>
