@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>mali</Civ>
+    <GenericName>Malians</GenericName>
+    <History>	"The Mali Empire became the largest and wealthiest empire in West Africa during the Middle Ages. It was established by the Mandinka people after the collapse of the Ghana Empire. The Malian army was primarily focused on archers and cavalry. Mali was not only known for its wealth and military power, but also for its culture. Scholars studied law, medicine, religion, literature and philosophy in the madrasahs of the University of Timbuktu. The architecture of the Empire was characterised by the use of mudbricks and adobe, in a style known today as Sudano-Sahelian. After many wars with neighboring peoples, including several revolts and invasions, the Empire began to decline. It disappeared during the 17th century, and its former territory was divided between the Empires of Songhai, Jolof, Kaabu and Great Fulo.",</History>
+    <Icon>emblems/emblem_malians.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+      special/formations/wedge
+      special/formations/syntagma
+    </Formations>
+  </Player>
+</Entity>

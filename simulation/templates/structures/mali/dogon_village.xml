@@ -28,11 +28,11 @@
   <Obstruction>
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_javelineer_merc_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/malians/dogon_village.xml</Actor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>

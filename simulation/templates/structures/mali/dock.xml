@@ -11,10 +11,8 @@
   <Obstruction>
     <Static width="22.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
+  <Trainer>
+  </Trainer>
   <VisualActor>
     <Actor>structures/malians/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>

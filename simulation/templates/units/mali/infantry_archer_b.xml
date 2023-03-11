@@ -12,7 +12,9 @@
     <SelectionGroupName>units/mali/infantry_archer_b</SelectionGroupName>
     <GenericName>Mandinka Archer</GenericName>
     <SpecificName>Kun-tigui</SpecificName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
     <Icon>units/mali/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

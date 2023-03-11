@@ -11,7 +11,7 @@
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry
       units/{civ}/champion_cavalry
@@ -19,7 +19,7 @@
       units/{civ}/hero_mansa_musa
       units/{civ}/hero_sakoura
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/malians/fortress.xml</Actor>
   </VisualActor>

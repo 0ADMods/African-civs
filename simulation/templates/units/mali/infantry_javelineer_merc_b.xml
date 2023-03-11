@@ -19,7 +19,9 @@
     <GenericName>Dogon Hunter</GenericName>
     <SpecificName>Dógólì dà:ná</SpecificName>
     <Icon>units/mali/infantry_merc_javelinist.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Promotion>

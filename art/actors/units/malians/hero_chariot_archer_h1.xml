@@ -13,6 +13,14 @@
     </variant>
   </group>
   <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <variant file="quadraped/horse/brown_alt.xml" frequency="1" name="horse-02"/>
     <variant file="quadraped/horse/dark_chestnut_alt.xml" frequency="1" name="horse-05"/>
     <variant file="quadraped/horse/pure_black_alt.xml" frequency="1" name="horse-06"/>

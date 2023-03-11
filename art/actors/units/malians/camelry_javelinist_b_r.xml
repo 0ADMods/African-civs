@@ -11,6 +11,14 @@
     </variant>
   </group>
   <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="tunic">
       <textures>
         <texture file="skeletal/mali_merc_cavalry_r_01.png" name="baseTex"/>
@@ -35,5 +43,5 @@
     <variant file="biped/rider/camelry/attack_slaughter.xml"/>
     <variant file="biped/rider/camelry/gather_meat.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>
