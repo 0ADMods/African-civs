@@ -8,14 +8,10 @@
     <GenericName>Temple</GenericName>
     <SpecificName>Alabatosoba</SpecificName>
     <Tooltip>Train priests to heal your troops. Garrison units to heal them at a quick rate.</Tooltip>
-
   </Identity>
   <Obstruction>
     <Static width="30" depth="24.0"/>
   </Obstruction>
-  <ProductionQueue>
-
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/malians/temple.xml</Actor>
   </VisualActor>

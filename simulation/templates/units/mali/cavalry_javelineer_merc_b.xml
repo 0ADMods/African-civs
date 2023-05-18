@@ -12,7 +12,9 @@
     <GenericName>Tuareg Camel Raider</GenericName>
     <SpecificName>Kel Tamasheq i-mə́nas</SpecificName>
     <Icon>units/mali/merc_camelry.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
     <VisibleClasses datatype="tokens">Camel Mercenary</VisibleClasses>
   </Identity>
   <Promotion>

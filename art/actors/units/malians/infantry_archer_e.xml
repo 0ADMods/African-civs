@@ -16,6 +16,14 @@
     </variant>
   </group>
   <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
     <variant frequency="1" name="Kushite Elite Archer Infantry Leather 01">
       <textures>
         <texture file="skeletal/mali_iar_e_01.png" name="baseTex"/>
@@ -60,5 +68,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

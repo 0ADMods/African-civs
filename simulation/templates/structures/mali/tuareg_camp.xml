@@ -28,13 +28,12 @@
   <Obstruction>
     <Static width="29.0" depth="29.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/cavalry_javelineer_merc_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/malians/tuareg_camp.xml</Actor>
-
   </VisualActor>
 </Entity>

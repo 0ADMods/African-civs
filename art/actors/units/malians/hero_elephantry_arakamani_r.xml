@@ -22,5 +22,5 @@
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/rider/elephantry/asian_turret_death.xml"/>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_norm_spec_parallax_spec.xml</material>
 </actor>

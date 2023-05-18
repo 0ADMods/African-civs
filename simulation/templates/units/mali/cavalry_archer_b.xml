@@ -6,7 +6,9 @@
     <GenericName>Kangaban Horse Archer</GenericName>
     <SpecificName>Dùùkùnàsi</SpecificName>
     <Icon>units/mali/cavalry_archer.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/mali/cavalry_archer_a</Entity>

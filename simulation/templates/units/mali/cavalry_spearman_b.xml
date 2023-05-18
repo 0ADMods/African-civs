@@ -5,7 +5,9 @@
     <SelectionGroupName>units/mali/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Sòtigi</SpecificName>
     <GenericName>Mandinka Light Cavalry</GenericName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
     <Icon>units/mali/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>

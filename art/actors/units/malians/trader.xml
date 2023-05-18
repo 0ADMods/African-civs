@@ -28,9 +28,14 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <group>
     <variant frequency="100" name="Idle"/>
     <variant file="quadraped/base_camel_run.xml" />
     <variant file="quadraped/base_camel_death.xml" />
   </group>
-  <material>default.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

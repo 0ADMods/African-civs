@@ -11,7 +11,7 @@
   <Obstruction>
     <Static width="31.0" depth="31"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_archer_b
@@ -20,7 +20,7 @@
       units/{civ}/hero_mansa_musa
       units/{civ}/hero_sakoura
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/malians/civic_centre_mali.xml</Actor>
   </VisualActor>
